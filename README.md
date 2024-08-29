@@ -14,7 +14,7 @@ A Go package to convert strings into slug format, supporting UTF-8, Persian, and
 To install the package, run:
 
 ```bash
-go get https://github.com/sika365/slugify
+go get github.com/sika365/slugify
 ```
 
 ## Usage
@@ -26,7 +26,7 @@ package main
 
 import (
 	"fmt"
-	"https://github.com/sika365/slugify"
+	"github.com/sika365/slugify"
 )
 
 func main() {
@@ -68,7 +68,7 @@ This project is licensed under the MIT License.
 برای نصب بسته، این دستور را اجرا کنید:
 
 ```
-go get https://github.com/sika365/slugify
+go get github.com/sika365/slugify
 ```
 
 ## استفاده
@@ -80,7 +80,7 @@ package main
 
 import (
 	"fmt"
-	"https://github.com/sika365/slugify"
+	"github.com/sika365/slugify"
 )
 
 func main() {
