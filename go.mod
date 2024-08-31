@@ -1,4 +1,4 @@
-module github.com/slugify
+module github.com/sika365/slugify
 
 go 1.21.5
 
