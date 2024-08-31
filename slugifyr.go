@@ -1,4 +1,4 @@
-package slugifyr
+package main
 
 import (
 	"regexp"
