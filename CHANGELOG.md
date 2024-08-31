@@ -19,7 +19,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ### Added
 
-- Initial release of `slugifyr`.
+- Initial release of `slugify`.
 - Implemented the main `Slugify` function to convert strings into a URL-friendly slug format.
 - Supported UTF-8 characters, including Persian, English, and mixed-language input.
 - Basic error handling for malformed input.

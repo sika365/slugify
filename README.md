@@ -1,4 +1,4 @@
-# slugifyr
+# slugify
 
 A Go package to convert strings into slug format, supporting UTF-8, Persian, and English characters.
 
@@ -19,7 +19,7 @@ go get github.com/sika365/slugify
 
 ## Usage
 
-Here is how to use the slugifyr package:
+Here is how to use the slugify package:
 
 ```go
 package main
@@ -30,7 +30,7 @@ import (
 )
 
 func main() {
-	slug, err := slugifyr.Slugify("Hello سلام")
+	slug, err := slugify.Slugify("Hello سلام")
 	if err != nil {
 		fmt.Println("Error:", err)
 		return
@@ -52,7 +52,7 @@ go test
 
 This project is licensed under the MIT License.
 
-# اسلاگفایر (slugifyr)
+# اسلاگفایر (slugify)
 
 یک بسته‌ی Go برای تبدیل رشته‌ها به قالب اسلاگ (slug)، با پشتیبانی از کاراکترهای UTF-8، فارسی و انگلیسی.
 
@@ -73,7 +73,7 @@ go get github.com/sika365/slugify
 
 ## استفاده
 
-برای استفاده از بسته slugifyr، به این شکل عمل کنید:
+برای استفاده از بسته slugify، به این شکل عمل کنید:
 
 ```go
 package main
@@ -84,7 +84,7 @@ import (
 )
 
 func main() {
-	slug, err := slugifyr.Slugify("Hello سلام")
+	slug, err := slugify.Slugify("Hello سلام")
 	if err != nil {
 		fmt.Println("Error:", err)
 		return
